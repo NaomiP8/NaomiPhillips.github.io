@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #edb468;
+	color: #384d59
+}
+header {
+	background-image: url(bakery.jfif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #DBCAB2; 
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 3em;
+}
+nav {
+	float: left;
+	width: 160px;
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%; 
+	background-color: #D9BC93;
+	
+}
+nav a {
+	text-decoration: none;
+	display: block;
+	
+}
+nav a:link {
+	color:#496E7A;
+}
+nav a:visited {
+	color: #2C434A;
+}
+nav a:hover {
+	display: block;
+	transition: color 2s linear;
+	color: #A52A2A;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1em;
+	flex-direction: column;
+	padding-top: 1em;
+}
+h3 {
+	text-align: center;
+	padding: 0;
+}
+table {
+	border: 4px solid #A9DBC8;
+	border-collapse: collapse;
+	background-color: #eebc7a
+}
+td {
+	padding: 0.5em;
+	border: 2px solid #A9DBC8;
+}
+th {
+	padding: 0.5em;
+	border: 2px solid #A9DBC8;
+}
+tr:nth-of-type(odd){
+	background-color: #FFFDED; 
+}
+
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+label {
+	float: left;
+	display: block;
+	width: 140px;
+	padding-right: 5px;
+	text-align: right;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+footer {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 75%;
+	font-style:italic;
+	text-align: center;
+	padding: 2em;
+	clear: both;
+}
+#image {
+	float: right;
+	padding-top: 3em;
+	width: 300px
+}
+#list {
+	list-style-type: none;
+	float: right;
+	width: 400px;
+	padding: 1em;
+	font-size: 120%;
+	flex-direction: column;
+	justify-content: right;
+	
+}
+#wrapper {
+	background-color: #FAD4A0;
+	border: 1.5px solid #000033;
+	background-image: linear-gradient(to bottom, #FAD4A0, #FFFFFF);
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 4px 4px 4px #333333; 
+}
+#display {
+	float: right;
+	padding-top: 3em;
+	width: 300px;
+}
